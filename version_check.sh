@@ -13,6 +13,6 @@ php -v 2>/dev/null && \
 printf "\n[MYSQL]\n" && \
 mysql --version 2>/dev/null && \
 printf "\n[NODE]\n" && \
-node -v 2>/dev/null && \
+node --version 2>/dev/null && \
 printf "\n[PM2]\n" && \
 pm2 --version 2>/dev/null
