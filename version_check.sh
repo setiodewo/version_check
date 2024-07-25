@@ -1,9 +1,5 @@
 printf "[HOSTNAME]\n" && \
 hostname 2>/dev/null && \
-printf "\n[UPTIME]\n" && \
-uptime 2>/dev/null && \
-printf "\n[WHO]\n" && \
-who 2>/dev/null && \
 printf "\n[OS]\n" && \
 lsb_release -a 2>/dev/null && \
 printf "\n[APACHE]\n" && \
